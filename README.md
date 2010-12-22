@@ -9,22 +9,23 @@ and then import it into your feed reader! Simple like that.
 Setup
 ---
 
-  git clone git://github.com/tiagofernandez/favtweets.git
-  easy_install python-twitter
-  easy_install oauth2
+    git clone git://github.com/tiagofernandez/favtweets.git
+    easy_install python-twitter
+    easy_install oauth2
 
 
 Usage
 ---
 
-  cd favtweets
-  make run user=tiagofernandez
+    cd favtweets
+    make run user=tiagofernandez
 
 
 OPML Import
 ---
 
 Google Reader:
+
 * Settings > Reader settings
 * Import/export > Choose file
 * Upload
