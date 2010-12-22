@@ -26,8 +26,8 @@ OPML Import
 
 Google Reader:
 
-* Settings > Reader settings
-* Import/export > Choose file
+* Settings > Reader settings > Import/export
+* Choose file (favtweets/build/favtweets_user.opml)
 * Upload
 
 
