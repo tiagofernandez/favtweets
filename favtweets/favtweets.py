@@ -23,16 +23,16 @@ def generate_opml(user, friends_ids):
   outlines = [outline_template % (name, id) for id, name in friends_ids.items()]
 
   opml_template = Template("""<?xml version="1.0" encoding="UTF-8"?>
-  <opml version="1.0">
-    <head>
-      <title>$user's favorite tweets</title>
-    </head>
-    <body>
-      <outline title="Favorite Tweets">
-  $outlines
-      </outline>
-    </body>
-  </opml>""")
+<opml version="1.0">
+  <head>
+    <title>$user's favorite tweets</title>
+  </head>
+  <body>
+    <outline title="Favorite Tweets">
+$outlines
+    </outline>
+  </body>
+</opml>""")
 
   opml = opml_template.substitute({
     'outlines' : '\n'.join(outlines),
