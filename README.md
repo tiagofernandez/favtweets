@@ -17,8 +17,6 @@ Setup
 Usage
 ---
 
-Make sure you have Python 2.7+ installed.
-
     make run user=tiagofernandez
 
 

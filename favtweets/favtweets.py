@@ -15,7 +15,9 @@ def get_friends_ids(user):
     access_token_secret='KGEPCNZZtqV0vBDKZj8DbY6a9RwjOEsTK3oXz3zO4')
 
   friends = api.GetFriends(user)
-  return { f.id : f.name for f in friends }
+  
+  return dict((f.id, f.name) for f in friends) # Python 2.6
+  #return { f.id : f.name for f in friends } # Python 2.7+
 
 def generate_opml(user, friends_ids):
 
