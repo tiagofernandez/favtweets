@@ -10,7 +10,7 @@ Setup
 ---
 
     git clone git://github.com/tiagofernandez/favtweets.git
-    easy_install python-twitter (cf. http://code.google.com/p/python-twitter/issues/detail?id=179)
+    easy_install python-twitter
     easy_install oauth2
 
 
